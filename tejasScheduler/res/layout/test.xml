@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Header  -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Header"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <!-- Show Preference in ListView  -->
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <!-- Footer -->
+
+   <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="7dip"
+    android:paddingTop="7dip"
+    android:weightSum="12" >
+
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:background="@drawable/home"
+        android:focusableInTouchMode="true"
+        android:text="Place Call"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="	1dp"
+        android:layout_height="wrap_content"
+        android:background="#C8C8C8" />
+
+    <Button
+        android:id="@+id/smsBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:background="@drawable/home"
+        android:focusableInTouchMode="true"
+        android:text="SMS"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:background="#C8C8C8" />
+
+    <Button
+        android:id="@+id/settingsBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:background="@drawable/home"
+        android:focusableInTouchMode="true"
+        android:text="Settings"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
+
+</LinearLayout>

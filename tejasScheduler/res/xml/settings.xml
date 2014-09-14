@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="home"
+    android:background="#000000" >
+
+    <PreferenceCategory
+        android:key="cat"
+        android:title="Active Call Schedules "
+        android:summary="Tap to view/delete details"
+        >
+       
+    </PreferenceCategory>
+
+</PreferenceScreen>
